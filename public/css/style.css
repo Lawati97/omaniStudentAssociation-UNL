@@ -1,0 +1,163 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container-fluid{
+    padding: 3% 15%;
+}
+
+h1{
+    font-family: 'Lineto replicamono','Trebuchet MS',sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    width: 90%;
+    font-weight: bolder;
+}
+
+h2{
+    font-size: 48px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.5;
+    font-weight: bolder;
+}
+
+p{
+    color: #8f8f8f;
+}
+
+
+.navbar {
+    padding: 0 0 4.5rem;
+    background: black;
+    }
+    .navbar-brand {
+        font-size: 1.5rem;
+    }
+    
+    .nav-item{
+        padding: 0 18px;
+    }
+    
+    .nav-link{
+        font-size: 1.2rem;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        
+    }
+    
+    
+    #title .container-fluid{
+        padding: 0% 15% 2%; 
+    }
+    .titleOrganization{
+        padding: 30px;
+    }
+    
+    .titleIMG{
+        transform: rotate(-4deg);
+        width: 135%;
+        position: absolute;
+        top: 30%;
+        left: 0%;
+    }
+    .hype-button{
+        margin-top: 20%;
+
+    }
+    .buttonUNL:hover{
+        background: blue;
+        color: white;
+    }
+
+    .trial{
+        background: white;
+        color: black;
+    }
+    .trial:hover{
+         background: blue;
+        color: black;
+    }
+
+    #head{
+        font-family: 'Lineto replicamono','Trebuchet MS',sans-serif;
+        display: block;
+        font-size: 1rem;
+    }
+    .talent-col{
+        padding: 3% 2%;
+        text-align: center;
+    }
+   
+    #title{
+/* 
+        background-image: url(/images/omaniBackground.jpg);
+        background-size: 100%; */
+        background: black;
+        color: white;
+        padding: 3% 0% 8% 0%;
+    }
+
+
+    #Oman{
+        background: white;
+        text-align: center;
+        position: relative;
+        z-index: 1;
+    }
+
+    .foot{
+        text-align: left;
+    }
+
+    .carousel-item{
+        padding: 7% 15%;
+    }
+    .card{
+        padding: 20px;
+    }
+
+    #Vision{
+        background: whitesmoke;
+        position: relative;
+        z-index: 1; 
+       
+    }
+    
+    #Officers{
+        padding: 5% 5%;
+    }
+    #Officers .row{
+        display: flex;
+        flex-wrap: wrap;
+        box-sizing: border-box;
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+    #Officers .col-lg-3{
+        text-align: center;
+    }
+
+    #footer{
+        background: whitesmoke;
+        padding: 2% 5%;
+        text-align: center;
+    }
+
+    @media (max-width: 1028px){
+        #title .container-fluid #head{
+            text-align: left;
+            font-size: 1rem;
+        }
+
+        #title .container-fluid{
+            padding-bottom: -20%;
+        }
+        .titleIMG{
+           
+            width: 110%;
+            position: static;
+            margin-top: 10%;
+        }
+        .nav-link{
+            font-size: 1rem;
+        }
+    }
